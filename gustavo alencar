@@ -1,0 +1,7 @@
+python
+
+def converter_altura_cm_para_m(altura_cm): return altura_cm / 100
+
+altura_cm = 175 #em centímetros
+
+altura_m = converter_altura_cm_para_m(altura_cm) print(f"A altura em metros é: {altura_m} m")
